@@ -3,6 +3,11 @@
 
 # Autor: Inove Coding School
 # Version: 2.0
+# Tipos de variables [Python]
+# Ejercicios de profundización
+
+# Autor: Inove Coding School
+# Version: 2.0
 
 # NOTA: 
 # Estos ejercicios son de mayor dificultad que los de clase y práctica.
@@ -38,3 +43,10 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
+
+print("ingrese nombre completo :")
+nombrecompleto = str(input())
+
+print("Su nombre en mayusculas es : ",str.upper(nombrecompleto))
+print("Su nombre en minusculas es : ",str.lower(nombrecompleto))
+print("Solo la primera mayuscula es : ",str.capitalize(nombrecompleto))
