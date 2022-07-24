@@ -11,6 +11,9 @@
 
 # Ingrese primero su nombre y luego su apellido
 # Capture ambos datos e imprima su nombre completo
+from operator import length_hint
+
+
 print('Ingrese por consola su nombre/s:')
 nombre = str(input())
 
@@ -19,8 +22,14 @@ apellido = str(input())
 
 # Imprima su nombre completo
 
-# Almacenar su nombre completo en una variable
-# nombre_completo = .....
+print(nombre,apellido)
 
+# Almacenar su nombre completo en una variable
+
+
+# nombre_completo = .....
+nombre_completo = nombre + apellido
 # Imprimir la cantidad de letras que posee su nombre completo
+len(nombre_completo)
+print(len(nombre_completo))
 # cantidad_letras = len(....)
