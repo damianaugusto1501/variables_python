@@ -29,5 +29,28 @@ E) Exponente/Potencia
   ej: La suma entre 4.2 y 6.5 es 10.7
 '''
 
+from audioop import mul
+
+
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
+
+
+print("Ingrese el primer numero")
+primernumero = int(input())
+print("Ingrese el segundo numero")
+segundonumero = int(input()) 
+
+suma = primernumero + segundonumero
+resta = primernumero - segundonumero
+division = primernumero / segundonumero
+multiplicacion = primernumero + segundonumero
+exponencial = primernumero ** segundonumero
+
+print("La suma de los numeros es ",suma)
+print("La resta de los numeros es ",resta)
+print("La multiplicacion es ",multiplicacion)
+print("La division es ",division)
+print("La potencia del numero es ",exponencial)
+
+
